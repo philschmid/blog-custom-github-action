@@ -6,7 +6,7 @@ jobs:
     name: We test it locally with act
     steps:
       - name: Get Pokemon name
-        uses: ./ # Uses an action in the root directory
+        uses: philschmid/blog-custom-github-action@v1
         id: pokemon
         with:
           pokemon_id: 150
